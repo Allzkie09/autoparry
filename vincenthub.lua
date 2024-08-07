@@ -1,15 +1,15 @@
 local ArrayField = loadstring(game:HttpGet("https://raw.githubusercontent.com/cracklua/cracks/m/sources/pitbull/Library/Key%20System.lua"))()
 
-setclipboard("https://discord.gg/pj5vc6mg")
+setclipboard("https://discord.gg/d8Yp6qFmSH")
 
 local Window = ArrayField:CreateWindow({
-    Name = "VINCENT HUB ",
+    Name = "CRACKLED HUB BY FROSTLUA ",
     LoadingTitle = "Loading",
-    LoadingSubtitle = "by vincent and allzkie09",
+    LoadingSubtitle = "by Belico2 and alexis.isback00",
     ConfigurationSaving = {
         Enabled = true,
         FolderName = nil,
-        FileName = "VINCENT HUB "
+        FileName = "CRACKLED HUB BY FROSTLUA "
     },
     Discord = {
         Enabled = true,
@@ -18,10 +18,10 @@ local Window = ArrayField:CreateWindow({
     },
     KeySystem = false,
     KeySettings = {
-        Title = "VINCENT HUB ",
+        Title = "CRACKLED HUB BY FROSTLUA ",
         Subtitle = "Key System",
-        Note = "To get the key join our discord (https://discord.gg/pj5vc6mg)",
-        FileName = "VINCENT HUB  Key System",
+        Note = "To get the key join our discord (https://discord.gg/d8Yp6qFmSH)",
+        FileName = "CRACKLED HUB BY FROSTLUA  Key System",
         SaveKey = True,
         GrabKeyFromSite = false,
         Key = {"2VoLiZ9Gbngzm87LB1F9",'GFqQb6oFl4K97m2I735guR7Vw4ez6gELs9gHdNJcCee2aYPqjL'},
@@ -541,8 +541,8 @@ local executorName = getExecutorName()
 
 if executorName == "Solara" then
     local Notify = Library:MakeNotify({
-        Title = "VINCENT HUB ",
-        Text = "VINCENT HUB  has determined that your executor, " .. executorName .. ", is fully compatible, ensuring an optimal and satisfying experience with our product.",
+        Title = "CRACKLED HUB BY FROSTLUA ",
+        Text = "CRACKLED HUB BY FROSTLUA  has determined that your executor, " .. executorName .. ", is fully compatible, ensuring an optimal and satisfying experience with our product.",
         Time = 5
       })
 
@@ -570,8 +570,8 @@ if executorName == "Solara" then
         coroutine.resume(AntiKick)
 else
     local Notify = Library:MakeNotify({
-        Title = "VINCENT HUB ",
-        Text = "VINCENT HUB  has determined that your executor, " .. executorName .. ", is fully compatible, ensuring an optimal and satisfying experience with our product.",
+        Title = "CRACKLED HUB BY FROSTLUA ",
+        Text = "CRACKLED HUB BY FROSTLUA  has determined that your executor, " .. executorName .. ", is fully compatible, ensuring an optimal and satisfying experience with our product.",
         Time = 5
       })
 
@@ -863,7 +863,7 @@ local function detectExploiters()
 
                 if humanoid.WalkSpeed > 40 then
                     local Notify = Library:MakeNotify({
-                        Title = "VINCENT HUB ",
+                        Title = "CRACKLED HUB BY FROSTLUA ",
                         Text = player.Name .. " is using high speed (WalkSpeed: " .. humanoid.WalkSpeed .. ")!",
                         Time = 5
                     })
@@ -871,7 +871,7 @@ local function detectExploiters()
 
                 if humanoid.JumpPower > 100 then
                     local Notify = Library:MakeNotify({
-                        Title = "VINCENT HUB ",
+                        Title = "CRACKLED HUB BY FROSTLUA ",
                         Text = player.Name .. " is using high jump (JumpPower: " .. humanoid.JumpPower .. ")!",
                         Time = 5
                     })
@@ -879,7 +879,7 @@ local function detectExploiters()
 
                 if rootPart and rootPart.Anchored then
                     local Notify = Library:MakeNotify({
-                        Title = "VINCENT HUB ",
+                        Title = "CRACKLED HUB BY FROSTLUA ",
                         Text = player.Name .. " is using fly!",
                         Time = 5
                     })
@@ -890,7 +890,7 @@ local function detectExploiters()
                     local hit, position = workspace:FindPartOnRayWithIgnoreList(ray, {player.Character})
                     if not hit or (position - rootPart.Position).Magnitude > 10 then
                         local Notify = Library:MakeNotify({
-                            Title = "VINCENT HUB ",
+                            Title = "CRACKLED HUB BY FROSTLUA ",
                             Text = player.Name .. " is using noclip!",
                             Time = 5
                         })
@@ -901,7 +901,7 @@ local function detectExploiters()
                     local speedMagnitude = (rootPart.Velocity * Vector3.new(1, 0, 1)).Magnitude
                     if speedMagnitude > 100 then
                         local Notify = Library:MakeNotify({
-                            Title = "VINCENT HUB ",
+                            Title = "CRACKLED HUB BY FROSTLUA ",
                             Text = player.Name .. " is using speed glitch (Speed: " .. speedMagnitude .. ")!",
                             Time = 5
                         })
@@ -1034,7 +1034,7 @@ local Section = Tab3:AddSection({"Combat"})
 local Toggle1 = Tab3:AddToggle({
     Name = "Auto Parry AI",
     Description = "Enables or disables automatic parry using AI.",
-    Default = true,
+    Default = false,
     Callback = function(toggled)
         autoParryAIEnabled = toggled
 
@@ -1092,7 +1092,7 @@ end
 
 local function ViewParryArea()
     local BallParry = Instance.new("Part", workspace)
-    BallParry.Name = "Parry Range <Vincent.isback00 or allzkie09>"
+    BallParry.Name = "Parry Range <Alexis.isback00 or Pitbull>"
     BallParry.Material = Enum.Material.ForceField
     BallParry.CastShadow = false
     BallParry.CanCollide = false
@@ -1174,7 +1174,7 @@ local Toggle3 = Tab3:AddToggle({
             ViewParryArea()
         elseif connection then
             connection:Disconnect()
-            local existingPart = workspace:FindFirstChild("Parry Range <Vincent.isback00 or Allzkie09>")
+            local existingPart = workspace:FindFirstChild("Parry Range <Alexis.isback00 or Pitbull>")
             if existingPart then
                 existingPart:Destroy()
             end
@@ -1362,20 +1362,20 @@ local Section = Tab3:AddSection({"Combat Modes"})
 local Dropdown = Tab3:AddDropdown({
     Name = "Combat Modes",
     Description = "Select a combat mode.",
-    Options = {"Vincent [Auto Parry]"},
-    Default = "Vincent [Auto Parry]",
-    Flag = "VINCENT HUB ",
+    Options = {"Basic", "Basic High", "Medium", "Medium High", "Pro", "Pro High", "Extreme", "Extreme [AI]"},
+    Default = "Extreme [AI]",
+    Flag = "CRACKLED HUB BY FROSTLUA ",
     Callback = function(currentOption)
         if autoParryAIEnabled then
             local Notify = Library:MakeNotify({
-                Title = "VINCENT HUB ",
-                Text = "VINCENT HUB  has applied the mode " .. currentOption .. " automatically successfully.",
+                Title = "CRACKLED HUB BY FROSTLUA ",
+                Text = "CRACKLED HUB BY FROSTLUA  has applied the mode " .. currentOption .. " automatically successfully.",
                 Time = 5
               })
         else
             local Notify = Library:MakeNotify({
-                Title = "VINCENT HUB ",
-                Text = "VINCENT  cannot activate mode " .. currentOption .. " since you do not have Auto Parry [AI] mode activated.",
+                Title = "CRACKLED HUB BY FROSTLUA ",
+                Text = "CRACKLED HUB BY FROSTLUA  cannot activate mode " .. currentOption .. " since you do not have Auto Parry [AI] mode activated.",
                 Time = 5
               })
         end
@@ -2120,6 +2120,6 @@ Tab5:AddButton({
     end
 })
 
-setclipboard("https://discord.gg/pj5vc6mg")
+setclipboard("https://discord.gg/d8Yp6qFmSH")
 
  
